@@ -9,5 +9,5 @@ If we click on any course we will get the complete course details and we have tw
 Both the buttons will be functional after slight change in the code. The markers given in code as shown below needs to be changed. We just need to change the "site link" to the organization link site and "pay link" to the payment link of your organisation and its done.<br><br>
 <img src="https://github.com/PRITAM9679/Education-App/blob/main/images/code%20changes.png" height=800 width=800/><br><br>
 
-Provide the pay link and the site link<br>
+Provide the pay link and the site link and then you can use the app and you will be ready to use the app.<br>
 Please perform the above task before using the app.

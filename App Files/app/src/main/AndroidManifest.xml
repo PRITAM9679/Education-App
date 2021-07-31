@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.education">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ed"
+        android:label="Basic Education App"
+        android:roundIcon="@drawable/ed"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tcca">
+        <activity
+            android:name="com.example.education.Courses"
+            android:exported="true"
+            android:label="Courses"
+            android:parentActivityName="com.example.education.MainActivity" />
+        <activity
+            android:name="com.example.education.MainActivity7"
+            android:exported="true"
+            android:label="Networking"
+            android:parentActivityName="com.example.education.Courses" />
+        <activity
+            android:name="com.example.education.MainActivity6"
+            android:exported="true"
+            android:label="Machine Learning"
+            android:parentActivityName="com.example.education.Courses" />
+        <activity
+            android:name="com.example.education.MainActivity4"
+            android:exported="true"
+            android:label="Java: Basic to Advanced"
+            android:parentActivityName="com.example.education.Courses" />
+        <activity
+            android:name="com.example.education.MainActivity3"
+            android:exported="true"
+            android:label="Python: Basic to Advanced"
+            android:parentActivityName="com.example.education.Courses" />
+        <activity
+            android:name="com.example.education.MainActivity5"
+            android:exported="true"
+            android:label="Ethical Hacking"
+            android:parentActivityName="com.example.education.Courses" />
+        <activity
+            android:name="com.example.education.MainActivity2"
+            android:exported="true"
+            android:label="C: Beginner to Advanced"
+            android:parentActivityName="com.example.education.Courses" />
+        <activity
+            android:name="com.example.education.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
